@@ -1,0 +1,57 @@
+.priorty-section {
+  background-color: #000;
+}
+.priorty-folder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 96px;
+}
+
+.priorty-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 96px;
+}
+.priorty-title {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0 auto;
+  color: #fff;
+}
+.priorty-span {
+  color: #98a2b3;
+}
+.priorty-about {
+  color: #fff;
+}
+
+/* list */
+.priority-list {
+  list-style-type: none;
+  padding-bottom: 96px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.priority-item {
+  width: 380px;
+  background-color: #ffffff;
+  height: 400px;
+}
+.priority-item > strong {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: left;
+  padding: 32px 32px 24px 32px;
+  display: inline-block;
+}
+.priority-item > p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 32px 0px 32px;
+}

@@ -1,0 +1,17 @@
+.brands-wrap {
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.brands-text {
+  margin: 96px 0 64px;
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.brands-images {
+  margin-bottom: 96px;
+}
