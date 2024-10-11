@@ -1,6 +1,29 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(" ./fonts/Inter28pt-Light.woff2") format("woff2"),
+    url(" ./fonts/Inter28pt-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(" ./fonts/Inter28pt-SemiBold.woff2") format("woff2"),
+    url(" ./fonts/Inter28pt-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
 }

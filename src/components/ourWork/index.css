@@ -1,0 +1,31 @@
+.our-work {
+  background-color: #f2f4f7;
+}
+.our-work-text {
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid #98a2b3;
+  padding-bottom: 16px;
+}
+.our-work-folder {
+  padding: 96px 0;
+}
+.our-work-wrap {
+  width: 840px;
+  margin: auto;
+  border-bottom: 2px solid #98a2b3;
+}
+.our-work-btn {
+  width: 100%;
+  border: none;
+  font-size: 60px;
+  font-weight: 600;
+  background-color: transparent;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.pannel > p {
+  font-size: 18px;
+}

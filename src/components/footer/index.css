@@ -1,0 +1,15 @@
+.footer-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.footer-item {
+  font-size: 16px;
+  font-weight: 600;
+}

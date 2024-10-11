@@ -1,0 +1,59 @@
+.discussion-section {
+  margin-bottom: 48px;
+}
+.discussion-folder {
+  display: flex;
+  width: 45%;
+  gap: 50px;
+}
+
+.discussion-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #101828;
+}
+
+.discussion-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #475467;
+}
+
+/*  */
+.discussion-form {
+  width: 500px;
+  margin-bottom: 600px;
+}
+.discussion-label {
+  box-sizing: border-box;
+}
+.discussion-label > span {
+  color: #344054;
+  font-weight: 600;
+  font-size: 14px;
+}
+.discussion-input {
+  display: block;
+  text-align: left;
+  width: 500px;
+  margin: 10px auto;
+  padding: 10px 0 10px 14px;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  border: 1px solid #d0d5dd;
+  border-radius: 4px;
+}
+.discussion-input::placeholder {
+  color: #667085;
+  font-size: 16px;
+}
+.discussion-form > button {
+  width: 100%;
+  background-color: #101828;
+  color: #fff;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 32px;
+}

@@ -1,0 +1,44 @@
+.our-service {
+  margin-top: 96px;
+  margin-bottom: 200px;
+}
+
+.our-service-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-service-content {
+}
+.our-service-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.our-service-title {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 64px;
+}
+
+.letto-wrap {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: ; */
+  gap: 100px;
+  margin-bottom: 96px;
+}
+.letto-wrap:nth-child(3) {
+  flex-direction: row-reverse;
+}
+.letto-title {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.letto-text {
+  font-size: 18px;
+  font-weight: 400;
+}

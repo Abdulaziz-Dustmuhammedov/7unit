@@ -4,7 +4,7 @@ import logoIcon from "../../assets/icons/logo.svg";
 
 const Header = () => {
   return (
-    <div className="header-navbar">
+    <div className="header-navbar container">
       <div className="navbar">
         <div className="pages">
           <img src={logoIcon} alt="" />

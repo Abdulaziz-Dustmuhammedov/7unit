@@ -23,7 +23,6 @@
 .pages-link {
   text-decoration: none;
 
-  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -33,7 +32,6 @@
 
 .cost {
   padding: 10px 18px;
-  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 600;
   color: #fff;

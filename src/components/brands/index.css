@@ -7,11 +7,13 @@
 }
 .brands-text {
   margin: 96px 0 64px;
-  font-family: "Inter", sans-serif;
   font-size: 60px;
   font-weight: 600;
 }
 
-.brands-images {
+.brands-images-list {
   margin-bottom: 96px;
+}
+.brands-images:not(:last-child) {
+  margin-right: 64px;
 }
