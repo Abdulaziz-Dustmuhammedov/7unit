@@ -9,11 +9,21 @@
   margin: 96px 0 64px;
   font-size: 60px;
   font-weight: 600;
+  color: #06090e;
 }
 
 .brands-images-list {
   margin-bottom: 96px;
 }
+.brands-images-list:hover {
+  cursor: pointer;
+}
 .brands-images:not(:last-child) {
   margin-right: 64px;
+}
+.brands-images {
+  padding-right: 64px;
+}
+.color {
+  color: rgb(61, 129, 112);
 }
