@@ -1,13 +1,15 @@
-/* .header-navbar {
-    display: flex;
-    align-items: center;
-} */
+.site-header {
+  margin-bottom: 96px;
+}
+.header-wrap {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 18px;
-  height: 80px;
-  margin-bottom: 96px;
 }
 .pages {
   display: flex;
@@ -38,4 +40,40 @@
   background-color: #000;
   border-radius: 5px;
   border: none;
+}
+.burger-btn {
+  display: none;
+}
+.hamburger-menu {
+  /* border: none; */
+}
+@media (max-width: 770px) {
+  .pages > img {
+    width: 80px;
+  }
+  .pages-link {
+    font-size: 14px;
+  }
+  .cost {
+    font-size: 14px;
+    padding: 5px 9px;
+  }
+}
+@media (max-width: 650px) {
+  .burger-btn {
+    display: block;
+  }
+  .pages-list,
+  .cost {
+    display: none;
+  }
+  .burger-btn {
+    border: none;
+    background-color: transparent;
+  }
+}
+@media (max-width: 425px) {
+  .header-wrap {
+    padding-top: 7px;
+  }
 }

@@ -9,8 +9,6 @@
   justify-content: center;
 }
 
-.our-service-content {
-}
 .our-service-text {
   font-size: 20px;
   font-weight: 600;
@@ -23,8 +21,6 @@
 
 .letto-wrap {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: ; */
   gap: 100px;
   margin-bottom: 96px;
 }
@@ -41,4 +37,45 @@
 .letto-text {
   font-size: 18px;
   font-weight: 400;
+}
+
+@media (max-width: 1132px) {
+  .our-service-title {
+    font-size: 50px;
+  }
+  .letto-wrap {
+    gap: 50px;
+  }
+  .letto-wrap > img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .letto-wrap {
+    flex-direction: column;
+  }
+  .letto-wrap:nth-child(3) {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 670px) {
+  .our-service-title {
+    font-size: 35px;
+  }
+  .letto-title {
+    font-size: 45px;
+  }
+}
+@media (max-width: 480px) {
+  .our-service-title {
+    font-size: 25px;
+  }
+  .letto-title {
+    font-size: 35px;
+  }
+  .letto-text {
+    font-size: 14px;
+  }
 }

@@ -27,3 +27,15 @@
 .color {
   color: rgb(61, 129, 112);
 }
+
+@media (max-width: 880px) {
+  .brands-text {
+    font-size: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .brands-text {
+    font-size: 25px;
+    margin: 32px 0 40px;
+  }
+}

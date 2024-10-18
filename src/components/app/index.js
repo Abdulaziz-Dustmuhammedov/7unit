@@ -19,9 +19,11 @@ const App = () => {
       <div>
         <AboutUs />
       </div>
+
       <div>
         <Priority />
       </div>
+
       <div>
         <Brands />
       </div>
@@ -31,15 +33,15 @@ const App = () => {
       <div>
         <OurService />
       </div>
-      <div>
+      {/* <div>
         <Discussion />
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <Footer />
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <Marquee />
-      </div>
+      </div> */}
     </div>
   );
 };
