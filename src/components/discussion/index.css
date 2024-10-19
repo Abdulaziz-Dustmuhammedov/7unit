@@ -3,10 +3,12 @@
 }
 .discussion-folder {
   display: flex;
-  width: 45%;
   gap: 50px;
 }
-
+.discussion-folder > img {
+  width: 720px;
+  height: 960px;
+}
 .discussion-title {
   font-size: 36px;
   font-weight: 600;
@@ -20,10 +22,9 @@
 }
 
 /*  */
-.discussion-form {
+/* .discussion-form {
   width: 500px;
-  margin-bottom: 600px;
-}
+} */
 .discussion-label {
   box-sizing: border-box;
 }
@@ -33,10 +34,9 @@
   font-size: 14px;
 }
 .discussion-input {
-  display: block;
-  text-align: left;
   width: 500px;
-  margin: 10px auto;
+
+  margin: 10px 0;
   padding: 10px 0 10px 14px;
   box-sizing: border-box;
   font-size: 1.2em;
@@ -56,4 +56,18 @@
   font-size: 16px;
   font-weight: 600;
   margin-top: 32px;
+}
+
+@media (max-width: 1300px) {
+  .discussion-folder > img {
+    max-width: 600px;
+  }
+  .discussion-form {
+    max-width: 500px;
+    width: 100%;
+  }
+  .discussion-input {
+    max-width: 500px;
+    width: 100%;
+  }
 }

@@ -14,7 +14,7 @@ const Discussion = () => {
           </p>
           <form className="discussion-form" action="">
             <label className="discussion-label" htmlFor="">
-              <span>Имя</span>
+              <span>Имя</span> <br />
               <input
                 className="discussion-input"
                 type="text"

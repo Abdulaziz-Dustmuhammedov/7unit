@@ -33,9 +33,9 @@ const App = () => {
       <div>
         <OurService />
       </div>
-      {/* <div>
+      <div>
         <Discussion />
-      </div> */}
+      </div>
       {/* <div>
         <Footer />
       </div> */}
