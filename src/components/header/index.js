@@ -60,13 +60,13 @@ const Header = () => {
 };
 export default Header;
 
-const navbar = document.querySelector(".header-wrap");
-const burgerBtn = document.querySelector(".burger-btn");
-const hamburgerMenu = document.querySelector(".hamburger-menu");
-const closeImg = document.querySelector(".close-img");
+// const navbar = document.querySelector(".header-wrap");
+// const burgerBtn = document.querySelector(".burger-btn");
+// const hamburgerMenu = document.querySelector(".hamburger-menu");
+// const closeImg = document.querySelector(".close-img");
 
-burgerBtn.addEventListener("click", () => {
-  navbar.classList.toggle("block");
-  closeImg.classList.toggle("block");
-  hamburgerMenu.classList.toggle("none");
-});
+// burgerBtn.addEventListener("click", () => {
+//   navbar.classList.toggle("block");
+//   closeImg.classList.toggle("block");
+//   hamburgerMenu.classList.toggle("none");
+// });
