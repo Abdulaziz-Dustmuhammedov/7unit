@@ -6,8 +6,11 @@
   gap: 50px;
 }
 .discussion-folder > img {
-  width: 720px;
-  height: 960px;
+  /* width: 720px;
+  height: 960px; */
+
+  max-width: 100%;
+  height: auto;
 }
 .discussion-title {
   font-size: 36px;
@@ -27,6 +30,7 @@
 } */
 .discussion-label {
   box-sizing: border-box;
+  width: 100%;
 }
 .discussion-label > span {
   color: #344054;
@@ -34,7 +38,7 @@
   font-size: 14px;
 }
 .discussion-input {
-  width: 500px;
+  width: 95%;
 
   margin: 10px 0;
   padding: 10px 0 10px 14px;
@@ -48,7 +52,7 @@
   font-size: 16px;
 }
 .discussion-form > button {
-  width: 100%;
+  width: 95%;
   background-color: #101828;
   color: #fff;
   border-radius: 5px;
@@ -60,14 +64,51 @@
 
 @media (max-width: 1300px) {
   .discussion-folder > img {
-    max-width: 600px;
-  }
-  .discussion-form {
-    max-width: 500px;
     width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1030px) {
+  .discussion-folder > img {
+    max-width: 50%;
+  }
+}
+/* @media (max-width: 900px) {
+  .discussion-folder > img {
+    max-width: 450px;
+  }
+} */
+/* @media (max-width: 800px) {
+  .discussion-folder > img {
+    max-width: 45%;
+  }
+} */
+@media (max-width: 768px) {
+  .discussion-folder {
+    flex-wrap: wrap;
+  }
+  .discussion-folder > img {
+    max-width: 95%;
+  }
+  .discussion-wrap {
+    max-width: 500px;
+    /* margin: 0 auto; */
+    padding: 0 20px;
+  }
+  /* .discussion-folder > img {
+    max-width: 450px;
+  }
+  .discussion-title {
+    font-size: 24px;
+  }
+  .discussion-text {
+    font-size: 16px;
   }
   .discussion-input {
-    max-width: 500px;
-    width: 100%;
+    font-size: 14px;
   }
+  .discussion-folder {
+    flex-direction: column;
+  } */
 }

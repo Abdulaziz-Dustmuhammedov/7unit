@@ -19,11 +19,9 @@ const App = () => {
       <div>
         <AboutUs />
       </div>
-
       <div>
         <Priority />
       </div>
-
       <div>
         <Brands />
       </div>
@@ -33,9 +31,11 @@ const App = () => {
       <div>
         <OurService />
       </div>
+      `
       <div>
         <Discussion />
       </div>
+      `
       {/* <div>
         <Footer />
       </div> */}
