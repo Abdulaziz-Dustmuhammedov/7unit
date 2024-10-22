@@ -36,9 +36,9 @@ const App = () => {
         <Discussion />
       </div>
       `
-      {/* <div>
+      <div>
         <Footer />
-      </div> */}
+      </div>
       {/* <div>
         <Marquee />
       </div> */}

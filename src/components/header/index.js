@@ -2,12 +2,13 @@
 import "./index.css";
 import logoIcon from "../../assets/icons/logo.svg";
 import hamburgerMenu from "../../assets/images/hamburger-menu.png";
+import closeImg from "../../assets/icons/close-img.png";
 
 const Header = () => {
   return (
     <div className="header-main-wrap">
-      <header className="site-header container">
-        <div className="header-wrap">
+      <header className="site-header ">
+        <div className="header-wrap container">
           <div className="pages">
             <img src={logoIcon} alt="" />
             <nav className="navbar">
@@ -44,6 +45,13 @@ const Header = () => {
               width={35}
               height={35}
             />
+            <img
+              className="close-img"
+              src={closeImg}
+              alt=""
+              width={35}
+              height={35}
+            />
           </button>
         </div>
       </header>
@@ -51,3 +59,14 @@ const Header = () => {
   );
 };
 export default Header;
+
+const navbar = document.querySelector(".header-wrap");
+const burgerBtn = document.querySelector(".burger-btn");
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+const closeImg = document.querySelector(".close-img");
+
+burgerBtn.addEventListener("click", () => {
+  navbar.classList.toggle("block");
+  closeImg.classList.toggle("block");
+  hamburgerMenu.classList.toggle("none");
+});

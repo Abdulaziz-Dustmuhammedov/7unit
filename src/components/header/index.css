@@ -1,6 +1,17 @@
 .site-header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 0 0 20px 0;
+  z-index: 5;
+  box-shadow: 0px -2px 8px 0px rgba(0, 0, 0, 0.25);
+
   margin-bottom: 96px;
 }
+
 .header-wrap {
   padding-top: 24px;
   display: flex;
@@ -76,4 +87,11 @@
   .header-wrap {
     padding-top: 7px;
   }
+}
+
+.block {
+  display: flex !important;
+}
+.none {
+  display: none !important;
 }

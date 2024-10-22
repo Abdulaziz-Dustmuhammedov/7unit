@@ -6,9 +6,6 @@
   gap: 50px;
 }
 .discussion-folder > img {
-  /* width: 720px;
-  height: 960px; */
-
   max-width: 100%;
   height: auto;
 }
@@ -62,28 +59,14 @@
   margin-top: 32px;
 }
 
+/* responsiv design */
 @media (max-width: 1300px) {
   .discussion-folder > img {
-    width: 100%;
+    max-width: 55%;
     height: auto;
   }
 }
 
-@media (max-width: 1030px) {
-  .discussion-folder > img {
-    max-width: 50%;
-  }
-}
-/* @media (max-width: 900px) {
-  .discussion-folder > img {
-    max-width: 450px;
-  }
-} */
-/* @media (max-width: 800px) {
-  .discussion-folder > img {
-    max-width: 45%;
-  }
-} */
 @media (max-width: 768px) {
   .discussion-folder {
     flex-wrap: wrap;
@@ -93,22 +76,25 @@
   }
   .discussion-wrap {
     max-width: 500px;
-    /* margin: 0 auto; */
     padding: 0 20px;
+    margin: 0 auto;
   }
-  /* .discussion-folder > img {
-    max-width: 450px;
-  }
+}
+
+@media (max-width: 470px) {
   .discussion-title {
-    font-size: 24px;
+    font-size: 30px;
   }
   .discussion-text {
-    font-size: 16px;
+    font-size: 15px;
   }
-  .discussion-input {
-    font-size: 14px;
+}
+
+@media (max-width: 360px) {
+  .discussion-title {
+    font-size: 25px;
   }
-  .discussion-folder {
-    flex-direction: column;
-  } */
+  .discussion-text {
+    font-size: 15px;
+  }
 }
