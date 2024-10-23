@@ -5,7 +5,7 @@
     background-color: white;
     /* display: block; */
     position: fixed;
-    top: 70px;
+    top: 50px;
     left: 0;
 
     display: flex;
@@ -21,11 +21,4 @@
   .mobile .cost {
     display: block;
   }
-
-  /*  */
-  /* .header-wrap {
-    position: sticky;
-    top: 0;
-    width: 100%;
-  } */
 }
