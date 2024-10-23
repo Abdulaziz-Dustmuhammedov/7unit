@@ -4,8 +4,8 @@
     height: calc(100vh - 40px);
     background-color: white;
     /* display: block; */
-    position: sticky;
-    top: 45px;
+    position: fixed;
+    top: 70px;
     left: 0;
 
     display: flex;
@@ -21,4 +21,11 @@
   .mobile .cost {
     display: block;
   }
+
+  /*  */
+  /* .header-wrap {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  } */
 }
