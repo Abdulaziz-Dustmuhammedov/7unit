@@ -69,7 +69,8 @@
   .site-header {
     margin-bottom: 10px;
   }
-  .hamburger-menu {
+  .hamburger-menu,
+  .close-img {
     width: 25px;
     height: 25px;
   }

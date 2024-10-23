@@ -9,6 +9,7 @@ import OurService from "../ourServices";
 import Discussion from "../discussion";
 import Footer from "../footer";
 import Marquee from "../marquee";
+import MobileHeader from "../mobile-header";
 
 const App = () => {
   return (
@@ -41,6 +42,10 @@ const App = () => {
       </div>
       {/* <div>
         <Marquee />
+      </div> */}
+      
+      {/* <div>
+        <MobileHeader />
       </div> */}
     </div>
   );

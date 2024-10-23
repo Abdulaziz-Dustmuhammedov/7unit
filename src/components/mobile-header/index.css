@@ -1,0 +1,24 @@
+@media (max-width: 650px) {
+  .mobile {
+    width: 100%;
+    height: calc(100vh - 40px);
+    background-color: white;
+    /* display: block; */
+    position: fixed;
+    top: 45px;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  .mobile .pages > .navbar > .pages-list {
+    display: block;
+    margin: auto;
+    padding-left: 0;
+  }
+  .mobile .cost {
+    display: block;
+  }
+}

@@ -53,11 +53,22 @@
   border: none;
 }
 .burger-btn {
+  border: none;
+  background-color: transparent;
   display: none;
 }
 .hamburger-menu {
   /* border: none; */
 }
+.close-img {
+  /* display: none; */
+}
+
+/*  */
+/*  */
+/*  */
+
+/* responsiv */
 @media (max-width: 770px) {
   .pages > img {
     width: 80px;
@@ -70,19 +81,21 @@
     padding: 5px 9px;
   }
 }
+
 @media (max-width: 650px) {
-  .burger-btn {
-    display: block;
+  .pages-list {
+    display: none;
   }
-  .pages-list,
   .cost {
     display: none;
   }
   .burger-btn {
-    border: none;
-    background-color: transparent;
+    display: block;
   }
+
+  /*  ####   */
 }
+
 @media (max-width: 425px) {
   .header-wrap {
     padding-top: 7px;
