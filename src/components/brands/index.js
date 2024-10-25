@@ -22,7 +22,7 @@ const Brands = () => {
   return (
     <div className="brands-section">
       <div className="brands-wrap">
-        <p className="brands-text" data-aos="zoom-out-down">
+        <p className="brands-text" data-aos="fade-down">
           Бренды c которыми <br /> работала наша команда
         </p>
         <Marquee

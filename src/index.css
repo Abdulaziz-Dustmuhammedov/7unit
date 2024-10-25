@@ -6,6 +6,12 @@
 }
 body {
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+[data-aos] {
+  overflow-x: hidden; /* Animatsiyali elementning ortiqcha chiqib ketishini yashirish */
 }
 
 @font-face {

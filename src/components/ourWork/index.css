@@ -1,5 +1,6 @@
 .our-work {
   background-color: #f2f4f7;
+  overflow: hidden;
 }
 .our-work-text {
   font-size: 20px;

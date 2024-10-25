@@ -43,7 +43,6 @@ const App = () => {
       {/* <div>
         <Marquee />
       </div> */}
-      
       {/* <div>
         <MobileHeader />
       </div> */}

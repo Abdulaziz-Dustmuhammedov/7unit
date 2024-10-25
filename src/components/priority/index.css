@@ -1,5 +1,6 @@
 .priorty-section {
   background-color: #000;
+  overflow: hidden;
 }
 .priorty-folder {
   display: flex;

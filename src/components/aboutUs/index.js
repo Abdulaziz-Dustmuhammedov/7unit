@@ -54,7 +54,8 @@ const AboutUs = () => {
         <div className="about-wrap">
           <p
             className="about-title"
-            data-aos="fade-up"
+            // data-aos=
+            data-aos="fade-up "
             data-aos-duration="1000"
           >
             Мы создаем сайты и бэк-системы <br /> c акцентом на качество и

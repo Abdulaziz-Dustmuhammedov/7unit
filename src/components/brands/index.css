@@ -1,3 +1,6 @@
+.brands-section {
+  overflow: hidden;
+}
 .brands-wrap {
   /* text-align: center; */
   display: flex;

@@ -1,5 +1,7 @@
 /*  */
-
+.about-section {
+  overflow: hidden;
+}
 .about-title {
   font-family: "Inter", sans-serif;
   font-size: 60px;

@@ -1,5 +1,6 @@
 .discussion-section {
   margin-bottom: 48px;
+  overflow: hidden;
 }
 .discussion-folder {
   display: flex;

@@ -25,6 +25,7 @@
 .letto-wrap {
   display: flex;
   gap: 100px;
+  overflow: hidden;
 }
 .letto-wrap:not(:last-child) {
   margin-bottom: 96px;
