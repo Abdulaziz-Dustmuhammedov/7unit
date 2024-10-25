@@ -5,8 +5,17 @@ const Discussion = () => {
   return (
     <div className="discussion-section">
       <div className="discussion-folder">
-        <img src={empty} alt="" />
-        <div className="discussion-wrap">
+        <img
+          src={empty}
+          alt=""
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        />
+        <div
+          className="discussion-wrap"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <p className="discussion-title">Обсудим ваш проект?</p>
           <p className="discussion-text">
             Заполните краткую информацию и мы <br />

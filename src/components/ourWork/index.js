@@ -5,7 +5,11 @@ const OurWork = () => {
   return (
     <div className="our-work">
       <div className="our-work-folder">
-        <div className="our-work-wrap">
+        <div
+          className="our-work-wrap"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <p className="our-work-text">Как мы работаем?</p>
 
           <Accordion
@@ -19,7 +23,11 @@ const OurWork = () => {
             успешную реализацию."
           />
         </div>
-        <div className="our-work-wrap">
+        <div
+          className="our-work-wrap"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
           <Accordion
             title={`2. UX/UI Дизайн`}
             description=" Создаем удобный и привлекательный дизайн, ориентированный на
@@ -28,7 +36,11 @@ const OurWork = () => {
              максимальную функциональность и визуальную эстетику."
           />
         </div>
-        <div className="our-work-wrap">
+        <div
+          className="our-work-wrap"
+          data-aos="fade-right"
+          data-aos-duration="1400"
+        >
           <Accordion
             title={`3. Разработка`}
             description="Переходим к реализации проекта, используя современные технологии и
@@ -37,7 +49,11 @@ const OurWork = () => {
           функции."
           />
         </div>
-        <div className="our-work-wrap">
+        <div
+          className="our-work-wrap"
+          data-aos="fade-left"
+          data-aos-duration="1600"
+        >
           <Accordion
             title={`4. Тестирование`}
             description="Проводим всестороннее тестирование проекта, чтобы убедиться в его
@@ -45,7 +61,11 @@ const OurWork = () => {
           гарантируем стабильность и безопасность вашего веб-решения."
           />
         </div>
-        <div className="our-work-wrap">
+        <div
+          className="our-work-wrap"
+          data-aos="fade-right"
+          data-aos-duration="1800"
+        >
           <Accordion
             title={`5. Гарантийный период`}
             description="После запуска проекта предоставляем гарантийную поддержку,

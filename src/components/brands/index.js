@@ -7,11 +7,22 @@ import Marquee from "react-fast-marquee";
 import orientFinansBank from "../../assets/images/orientfinansbank.png";
 import AnorBank from "../../assets/images/anorbank.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Brands = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false
+    });
+  }, []);
+
   return (
     <div className="brands-section">
       <div className="brands-wrap">
-        <p className="brands-text">
+        <p className="brands-text" data-aos="zoom-out-down">
           Бренды c которыми <br /> работала наша команда
         </p>
         <Marquee

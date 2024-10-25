@@ -1,8 +1,11 @@
 .our-service {
   margin-top: 96px;
-  margin-bottom: 200px;
+  margin-bottom: 96px;
 }
 
+.our-service-content > span {
+  display: inline-block;
+}
 .our-service-wrap {
   display: flex;
   align-items: center;
@@ -22,8 +25,11 @@
 .letto-wrap {
   display: flex;
   gap: 100px;
+}
+.letto-wrap:not(:last-child) {
   margin-bottom: 96px;
 }
+
 .letto-wrap:nth-child(3) {
   flex-direction: row-reverse;
 }
