@@ -10,10 +10,6 @@ body {
   padding: 0;
 }
 
-[data-aos] {
-  overflow-x: hidden; /* Animatsiyali elementning ortiqcha chiqib ketishini yashirish */
-}
-
 @font-face {
   font-family: "Inter";
   src: url(" ./fonts/Inter28pt-Light.woff2") format("woff2"),
