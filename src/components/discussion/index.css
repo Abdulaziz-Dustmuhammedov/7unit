@@ -75,7 +75,7 @@
     flex-wrap: wrap;
   }
   .discussion-folder > img {
-    max-width: 95%;
+    display: none;
   }
   .discussion-wrap {
     max-width: 500px;

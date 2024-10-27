@@ -35,6 +35,10 @@
   .brands-text {
     font-size: 40px;
   }
+  .brands-images {
+    width: 200px;
+    height: 50px;
+  }
 }
 @media (max-width: 500px) {
   .brands-text {
