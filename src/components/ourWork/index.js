@@ -7,7 +7,7 @@ const OurWork = () => {
       <div className="our-work-folder">
         <div
           className="our-work-wrap"
-          // data-aos="fade-right"
+          data-aos="fade-right"
           data-aos-duration="1000"
         >
           <p className="our-work-text">Как мы работаем?</p>
@@ -25,7 +25,7 @@ const OurWork = () => {
         </div>
         <div
           className="our-work-wrap"
-          // data-aos="fade-left"
+          data-aos="fade-left"
           data-aos-duration="1200"
         >
           <Accordion
@@ -38,7 +38,7 @@ const OurWork = () => {
         </div>
         <div
           className="our-work-wrap"
-          // data-aos="fade-right"
+          data-aos="fade-right"
           data-aos-duration="1400"
         >
           <Accordion
@@ -51,7 +51,7 @@ const OurWork = () => {
         </div>
         <div
           className="our-work-wrap"
-          // data-aos="fade-left"
+          data-aos="fade-left"
           data-aos-duration="1600"
         >
           <Accordion
@@ -63,7 +63,7 @@ const OurWork = () => {
         </div>
         <div
           className="our-work-wrap"
-          // data-aos="fade-right"
+          data-aos="fade-right"
           data-aos-duration="1800"
         >
           <Accordion

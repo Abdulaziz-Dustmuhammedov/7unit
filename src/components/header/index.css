@@ -96,11 +96,11 @@
   /*  ####   */
 }
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
   .header-wrap {
     padding-top: 7px;
   }
-}
+} */
 
 .block {
   display: flex !important;
