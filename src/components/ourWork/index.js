@@ -3,7 +3,7 @@ import "./index.css";
 
 const OurWork = () => {
   return (
-    <div className="our-work">
+    <div className="our-work" id="our-work">
       <div className="our-work-folder">
         <div
           className="our-work-wrap"

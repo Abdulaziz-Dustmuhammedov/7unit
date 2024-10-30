@@ -1,9 +1,9 @@
 import "./index.css";
 import empty from "../../assets/images/empty.png";
 
-const Discussion = () => {
+const Discussion = ({ onSubmit }) => {
   return (
-    <div className="discussion-section">
+    <div className="discussion-section" id="form">
       <div className="discussion-folder">
         <img
           src={empty}
@@ -21,13 +21,15 @@ const Discussion = () => {
             Заполните краткую информацию и мы <br />
             свяжемся с Вами в течении 1 рабочего дня
           </p>
-          <form className="discussion-form" action="">
+          <form className="discussion-form" action="" onSubmit={onSubmit}>
             <label className="discussion-label" htmlFor="">
               <span>Имя</span>
               <input
                 className="discussion-input"
                 type="text"
                 placeholder="Имя пользователя"
+                required="on"
+                // onChange={(e)=>{}}
               />
             </label>
             <label className="discussion-label" htmlFor="">
@@ -36,6 +38,7 @@ const Discussion = () => {
                 className="discussion-input"
                 type="text"
                 placeholder="Название компании"
+                required="on"
               />
             </label>
             <label className="discussion-label" htmlFor="">
@@ -44,6 +47,7 @@ const Discussion = () => {
                 className="discussion-input"
                 type="text"
                 placeholder="+998   (00) 000 - 00 - 00"
+                required="on"
               />
             </label>
             <label className="discussion-label" htmlFor="">
@@ -52,6 +56,7 @@ const Discussion = () => {
                 className="discussion-input"
                 type="text"
                 placeholder="Оставьте нам сообщение..."
+                required="on"
               />
             </label>
             <button>Отправить</button>

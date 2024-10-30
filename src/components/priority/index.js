@@ -15,7 +15,7 @@ const PriorityCard = ({ title, descrition, delay }) => {
 
 const Priority = () => {
   return (
-    <div className="priorty-section">
+    <div className="priorty-section" id="priorty">
       <div className="container">
         <div className="priorty-folder ">
           <div className="priorty-wrap">

@@ -5,7 +5,7 @@ import redBackground from "../../assets/images/red-backgroung.png";
 
 const OurService = () => {
   return (
-    <div className="our-service">
+    <div className="our-service" id="our-service">
       <div className="our-service-folder container">
         <div className="our-service-content">
           <span

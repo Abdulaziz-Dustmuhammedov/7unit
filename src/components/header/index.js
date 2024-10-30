@@ -30,17 +30,18 @@ const Header = () => {
               <nav className="navbar">
                 <ul className="pages-list">
                   <li>
-                    <a href="/" className="pages-link">
+                    <a href="#priorty" className="pages-link">
                       Услуги
                     </a>
                   </li>
+
                   <li>
-                    <a href="/" className="pages-link">
+                    <a href="#our-service" className="pages-link">
                       Проекты
                     </a>
                   </li>
                   <li>
-                    <a href="/" className="pages-link">
+                    <a href="#our-work" className="pages-link">
                       О нас
                     </a>
                   </li>

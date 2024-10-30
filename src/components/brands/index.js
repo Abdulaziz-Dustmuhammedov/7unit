@@ -7,6 +7,8 @@ import Marquee from "react-fast-marquee";
 import orientFinansBank from "../../assets/images/orientfinansbank.png";
 import AnorBank from "../../assets/images/anorbank.png";
 
+import macBroRes from "../../assets/images/MacBro [mini].png";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -27,7 +29,7 @@ const Brands = () => {
         </p>
         <Marquee
           className="brands-images-list"
-          speed={75}
+          speed={155}
           pauseOnHover={true}
           autoFill={true}
         >
@@ -39,7 +41,16 @@ const Brands = () => {
           />
           <img className="brands-images" src={nt} alt="NT Brand" />
           <img className="brands-images" src={safia} alt="Safia Brand" />
-          <img className="brands-images" src={macBro} alt="MacBro Brand" />
+          <img
+            className="brands-images mac-Bro"
+            src={macBro}
+            alt="MacBro Brand"
+          />
+          {/* <img
+            className="brands-images mac-Bro-Res"
+            src={macBroRes}
+            alt="MacBro Brand"
+          /> */}
           <img className="brands-images" src={thread} alt="Thread Brand" />
           <img
             className="brands-images"
