@@ -1,6 +1,5 @@
 // import assets from
-//
-//
+
 //
 import "./index.css";
 import logoIcon from "../../assets/icons/logo.svg";
@@ -79,7 +78,7 @@ const Header = () => {
         </header>
       </div>
 
-      {isOpen && <MobileHeader />}
+      {isOpen && <MobileHeader onClose={onClose} />}
     </>
   );
 };

@@ -1,12 +1,9 @@
 import { useState } from "react";
 import "./index.css";
 
-export default function MobileHeader() {
+export default function MobileHeader({ onClose }) {
   const [isFixed, setIsFixed] = useState(true);
 
-  const handleLinkClick = () => {
-    setIsFixed(false);
-  };
   return (
     <>
       {isFixed && (
@@ -15,11 +12,7 @@ export default function MobileHeader() {
             <nav className="navbar ">
               <ul className="pages-list">
                 <li>
-                  <a
-                    href="#priorty"
-                    className="pages-link"
-                    onClick={handleLinkClick}
-                  >
+                  <a href="#priorty" className="pages-link" onClick={onClose}>
                     Услуги
                   </a>
                 </li>
@@ -28,22 +21,18 @@ export default function MobileHeader() {
                   <a
                     href="#our-service"
                     className="pages-link"
-                    onClick={handleLinkClick}
+                    onClick={onClose}
                   >
                     Проекты
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#our-work"
-                    className="pages-link"
-                    onClick={handleLinkClick}
-                  >
+                  <a href="#our-work" className="pages-link" onClick={onClose}>
                     О нас
                   </a>
                 </li>
                 <li>
-                  <a href="/" className="pages-link" onClick={handleLinkClick}>
+                  <a href="/" className="pages-link" onClick={onClose}>
                     Контакты
                   </a>
                 </li>
