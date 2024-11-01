@@ -10,6 +10,7 @@ import Discussion from "../discussion";
 import Footer from "../footer";
 import Marquee from "../marquee";
 import MobileHeader from "../mobile-header";
+import MaskedInput from "../phone-mask";
 
 import SuccessForm from "../success-form";
 import { useState } from "react";
@@ -39,6 +40,7 @@ const App = () => {
       <Discussion onSubmit={onSubmit} />
 
       {isSubmitted && <SuccessForm handleClose={handleClose} />}
+      {/* <MaskedInput /> */}
 
       <Footer />
     </div>

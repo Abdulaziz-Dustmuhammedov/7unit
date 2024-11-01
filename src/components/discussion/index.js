@@ -1,5 +1,59 @@
 import "./index.css";
 import empty from "../../assets/images/empty.png";
+// import MaskedInput from "../../components/phone-mask/index";
+import InputMask from "react-input-mask";
+
+//
+//
+//
+//
+const MaskedInputForm = (onSubmit) => {
+  return (
+    <div>
+      <form className="discussion-form" action="" onSubmit={onSubmit}>
+        <label className="discussion-label" htmlFor="">
+          <span>Имя</span>
+          <input
+            className="discussion-input"
+            type="text"
+            placeholder="Имя пользователя"
+            required
+            // onChange={(e)=>{}}
+          />
+        </label>
+        <label className="discussion-label" htmlFor="">
+          <span>Название компании</span>
+          <input
+            className="discussion-input"
+            type="text"
+            placeholder="Название компании"
+            required
+          />
+        </label>
+        <label className="discussion-label" htmlFor="">
+          <InputMask
+            className="discussion-input"
+            mask="+\9\98 (99) 999-99-99"
+            placeholder="+998   (00) 000 - 00 - 00"
+            id="phone"
+            type="text"
+          />
+        </label>
+        <label className="discussion-label" htmlFor="">
+          <span>Пару слов чем можем помочь</span>
+          <textarea
+            className="discussion-input textarea"
+            type="text"
+            placeholder="Оставьте нам сообщение..."
+            required
+          />
+        </label>
+        <button>Отправить</button>
+      </form>
+      ;
+    </div>
+  );
+};
 
 const Discussion = ({ onSubmit }) => {
   return (
@@ -21,7 +75,18 @@ const Discussion = ({ onSubmit }) => {
             Заполните краткую информацию и мы <br />
             свяжемся с Вами в течении 1 рабочего дня
           </p>
-          <form className="discussion-form" action="" onSubmit={onSubmit}>
+
+          <MaskedInputForm onSubmit={onSubmit} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Discussion;
+
+{
+  /* <form className="discussion-form" action="" onSubmit={onSubmit}>
             <label className="discussion-label" htmlFor="">
               <span>Имя</span>
               <input
@@ -60,11 +125,5 @@ const Discussion = ({ onSubmit }) => {
               />
             </label>
             <button>Отправить</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Discussion;
+          </form> */
+}
