@@ -47,6 +47,10 @@
   border: 1px solid #d0d5dd;
   border-radius: 4px;
 }
+.discussion-label > textarea {
+  height: 135px;
+}
+
 .discussion-input::placeholder {
   color: #667085;
   font-size: 16px;

@@ -29,6 +29,7 @@ const OurService = () => {
             alt=""
             data-aos="fade-right"
             data-aos-duration="1000"
+            width={600}
           />
           <div>
             <p
@@ -60,6 +61,7 @@ const OurService = () => {
             alt=""
             data-aos="fade-left"
             data-aos-duration="1000"
+            width={600}
           />
           <div>
             <p

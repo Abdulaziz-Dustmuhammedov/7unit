@@ -53,7 +53,7 @@ const Discussion = ({ onSubmit }) => {
             <label className="discussion-label" htmlFor="">
               <span>Пару слов чем можем помочь</span>
               <textarea
-                className="discussion-input"
+                className="discussion-input textarea"
                 type="text"
                 placeholder="Оставьте нам сообщение..."
                 required="on"

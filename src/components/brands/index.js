@@ -29,7 +29,7 @@ const Brands = () => {
         </p>
         <Marquee
           className="brands-images-list"
-          speed={155}
+          speed={65}
           pauseOnHover={true}
           autoFill={true}
         >

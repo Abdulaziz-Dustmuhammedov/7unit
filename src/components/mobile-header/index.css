@@ -1,24 +1,33 @@
 @media (max-width: 650px) {
   .mobile {
     width: 100%;
-    height: calc(100vh - 40px);
+    height: calc(100vh - 50px);
     background-color: white;
-    /* display: block; */
     position: fixed;
     top: 50px;
     left: 0;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: start;
-  }
-  .mobile .pages > .navbar > .pages-list {
-    display: block;
-    margin: auto;
-    padding-left: 0;
+    align-items: start;
   }
   .mobile .cost {
     display: block;
+    width: 100%;
+    height: 40px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+  }
+  .mobile .pages > .navbar > .pages-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 0;
+  }
+  .mobile > .pages {
+    margin-bottom: 50px;
+  }
+  .mobile > .pages > .navbar {
+    padding-left: 40px;
   }
 }

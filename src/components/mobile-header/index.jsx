@@ -39,7 +39,7 @@ export default function MobileHeader({ onClose }) {
               </ul>
             </nav>
           </div>
-          <button className="cost">Узнать стоимость</button>
+          <button className="cost">Связаться с нами</button>
         </div>
       )}
     </>
