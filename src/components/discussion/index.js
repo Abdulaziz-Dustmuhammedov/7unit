@@ -50,7 +50,6 @@ const MaskedInputForm = (onSubmit) => {
         </label>
         <button>Отправить</button>
       </form>
-      ;
     </div>
   );
 };

@@ -65,9 +65,9 @@
   .letto-wrap:nth-child(3) {
     flex-direction: column;
   }
-  .our-service {
-    margin-bottom: 0;
-  }
+  /* .our-service {
+    margin-bottom: ;
+  } */
 }
 
 @media (max-width: 670px) {

@@ -7,7 +7,11 @@ import Brands from "../brands";
 import OurWork from "../ourWork";
 import OurService from "../ourServices";
 import Discussion from "../discussion";
+import Contact from "../contact";
 import Footer from "../footer";
+// footer mobile start
+import FooterMobile from "../footer/index";
+// footer mobile end
 import Marquee from "../marquee";
 import MobileHeader from "../mobile-header";
 import MaskedInput from "../phone-mask";
@@ -38,11 +42,12 @@ const App = () => {
       <OurWork />
       <OurService />
       <Discussion onSubmit={onSubmit} />
+      <Contact />
 
       {isSubmitted && <SuccessForm handleClose={handleClose} />}
       {/* <MaskedInput /> */}
-
-      <Footer />
+      <FooterMobile />
+      {/* <Footer /> */}
     </div>
   );
 };
