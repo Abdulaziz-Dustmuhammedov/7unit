@@ -1,12 +1,6 @@
 import "./index.css";
 import empty from "../../assets/images/empty.png";
-// import MaskedInput from "../../components/phone-mask/index";
 import InputMask from "react-input-mask";
-
-//
-//
-//
-//
 const MaskedInputForm = (onSubmit) => {
   return (
     <div>
@@ -37,6 +31,7 @@ const MaskedInputForm = (onSubmit) => {
             placeholder="+998   (00) 000 - 00 - 00"
             id="phone"
             type="text"
+            required
           />
         </label>
         <label className="discussion-label" htmlFor="">
