@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="header-main-wrap">
+      <div className="header-main-wrap" id="header">
         <header className="site-header ">
           <div className="header-wrap container">
             <div className="pages">

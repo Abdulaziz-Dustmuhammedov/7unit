@@ -46,8 +46,10 @@ const App = () => {
 
       {isSubmitted && <SuccessForm handleClose={handleClose} />}
       {/* <MaskedInput /> */}
-      <FooterMobile />
-      {/* <Footer /> */}
+
+      {/* <FooterMobile /> */}
+
+      <Footer />
     </div>
   );
 };
