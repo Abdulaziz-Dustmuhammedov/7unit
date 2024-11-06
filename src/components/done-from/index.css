@@ -1,7 +1,13 @@
 .done-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: fixed;
+
+  /* background-color: #4a6c9e; */
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+
+  top: 25%;
+  left: 30%;
 }
 .done-folder {
   max-width: 520px;
@@ -14,6 +20,9 @@
   flex-direction: column;
   position: relative;
   box-shadow: 4px 7px 24px #b2c2db;
+
+  /* position: fixed;
+  top: 50px; */
 }
 .done-wrap {
   display: flex;
@@ -55,6 +64,8 @@
   color: #fff;
 }
 .done-close-btn {
+  border: none;
+  display: flex;
 }
 .done-close-img {
   position: absolute;

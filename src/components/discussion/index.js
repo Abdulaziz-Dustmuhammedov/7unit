@@ -1,7 +1,8 @@
 import "./index.css";
 import empty from "../../assets/images/empty.png";
 import InputMask from "react-input-mask";
-const MaskedInputForm = (onSubmit) => {
+
+const MaskedInputForm = ({ onSubmit }) => {
   return (
     <div>
       <form className="discussion-form" action="" onSubmit={onSubmit}>
@@ -43,7 +44,7 @@ const MaskedInputForm = (onSubmit) => {
             required
           />
         </label>
-        <button>Отправить</button>
+        <button type="submit">Отправить</button>
       </form>
     </div>
   );

@@ -6,7 +6,7 @@ const SuccessForm = ({ handleClose }) => {
   return (
     <div className="success-section">
       <div className="success-folder">
-        <button onClick={handleClose}>
+        <button className="success-btn" onClick={handleClose}>
           <img className="closeBtn" src={closeImg} alt="" />
         </button>
         <h3 className="success-title">Ваша заявка принята!</h3>
