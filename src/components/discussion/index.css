@@ -4,11 +4,15 @@
 }
 .discussion-folder {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 50px;
 }
 .discussion-folder > img {
   max-width: 100%;
   height: auto;
+  height: 885px;
+  width: 100%;
 }
 .discussion-wrap {
   margin-top: 55px;

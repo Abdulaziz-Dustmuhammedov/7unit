@@ -39,8 +39,8 @@ const App = () => {
       <Brands />
       <OurWork />
       <OurService />
-      <Discussion onSubmit={onSubmit} />
-      {isSubmitted && <DoneForm handleClose={handleClose} />}
+      <Discussion isSubmitted={isSubmitted} onSubmit={onSubmit} />
+      {/* {isSubmitted && <DoneForm />} */}
       {/* <DoneForm /> */}
       <Contact />
       {/* {isSubmitted && <SuccessForm handleClose={handleClose} />} */}

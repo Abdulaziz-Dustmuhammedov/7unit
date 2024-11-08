@@ -2,7 +2,7 @@ import "./index.css";
 import DoneImg from "../../assets/icons/Done-icon.svg";
 import closeImg from "../../assets/icons/close-img.png";
 
-const DoneForm = ({ handleClose }) => {
+const DoneForm = () => {
   return (
     <div className="done-section">
       <div className="done-folder">
@@ -25,11 +25,7 @@ const DoneForm = ({ handleClose }) => {
               </p>
             </div>
           </div>
-          <button className="done-close-btn" onClick={handleClose}>
-            <img className="done-close-img" src={closeImg} alt="" />
-          </button>
         </div>
-        <button className="done-btn">Назад</button>
       </div>
     </div>
   );
