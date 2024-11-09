@@ -6,7 +6,7 @@ import TelephneImg from "../../assets/icons/telephone-icon.svg";
 
 const Contact = () => {
   return (
-    <div className="contact-section">
+    <div className="contact-section" id="contact">
       <div className="contact-wrap">
         <ul className="contact-list">
           <li className="contact-item">

@@ -32,7 +32,7 @@ export default function MobileHeader({ onClose }) {
                   </a>
                 </li>
                 <li>
-                  <a href="/" className="pages-link" onClick={onClose}>
+                  <a href="#contact" className="pages-link" onClick={onClose}>
                     Контакты
                   </a>
                 </li>
