@@ -68,6 +68,15 @@
   }
 }
 
+@media (max-width: 768px) {
+  .priorty-wrap {
+    margin-bottom: 64px;
+  }
+  .priority-list {
+    margin-bottom: 64px;
+  }
+}
+
 @media (max-width: 590px) {
   .priorty-title {
     font-size: 35px;
@@ -79,7 +88,17 @@
   }
 }
 @media (max-width: 440px) {
+  .priorty-wrap {
+    margin-bottom: 32px;
+  }
+  .priority-list {
+    margin-bottom: 48px;
+  }
+  .priorty-about {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
   .priorty-title {
-    font-size: 20px;
+    font-size: 24px;
   }
 }

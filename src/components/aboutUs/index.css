@@ -1,12 +1,13 @@
 /*  */
 .about-section {
   overflow: hidden;
+  margin-bottom: 50px;
 }
 .about-title {
   font-family: "Inter", sans-serif;
   font-size: 60px;
   font-weight: 600;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .about-btn {
@@ -66,12 +67,16 @@
   }
 }
 @media (max-width: 555px) {
+  .about-btn {
+    margin-bottom: 32px;
+  }
   .about-title {
-    font-size: 25px;
+    font-size: 24px;
   }
   .site-header {
     margin-bottom: 10px;
   }
+
   .hamburger-menu,
   .close-img {
     width: 25px;
@@ -79,18 +84,19 @@
   }
 }
 @media (max-width: 480px) {
-  .about-title {
+  /* .about-title {
     font-size: 20px;
-  }
+  } */
   .site-header {
     margin-bottom: 7px;
   }
 }
 @media (max-width: 370px) {
-  .about-title {
+  /* .about-title {
     font-size: 17px;
-  }
+  } */
   .site-header {
     margin-bottom: 5px;
   }
 }
+/*  */

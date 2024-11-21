@@ -1,5 +1,5 @@
-import AOS from "aos"; // AOS kutubxonasini import qilish
-import "aos/dist/aos.css"; // AOS CSS ni import qilish
+// import AOS from "aos"; // AOS kutubxonasini import qilish
+// import "aos/dist/aos.css"; // AOS CSS ni import qilish
 
 import { useEffect } from "react";
 import "./index.css";
@@ -18,7 +18,7 @@ const Priority = () => {
     <div className="priorty-section" id="priorty">
       <div className="container">
         <div className="priorty-folder ">
-          <div className="priorty-wrap">
+          <div className="priorty-wrap ">
             <span className="priorty-about " data-aos="fade-down">
               Что мы делаем
             </span>

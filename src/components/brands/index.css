@@ -32,18 +32,43 @@
   color: rgb(61, 129, 112);
 }
 
-/* .mac-Bro-Res {
-  display: none;
-} */
+.orientFinansBank {
+  width: 461px;
+  height: 64px;
+}
+.NajotTalim {
+  width: 280px;
+  height: 64px;
+}
+.Safia {
+  width: 180px;
+  height: 64px;
+}
+.MacBro {
+  width: 215px;
+  height: 64px;
+}
+.Thread {
+  width: 194px;
+  height: 64px;
+}
+.AnorBank {
+  width: 331px;
+  height: 64px;
+}
+.MaxWay {
+  max-width: 196px;
+  height: 64px;
+}
 
 @media (max-width: 880px) {
   .brands-text {
     font-size: 40px;
   }
-  .brands-images {
+  /* .brands-images {
     width: 200px;
     height: 50px;
-  }
+  } */
   /* .mac-Bro {
     display: none;
   }

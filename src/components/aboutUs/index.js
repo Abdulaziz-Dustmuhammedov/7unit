@@ -32,13 +32,13 @@ const AboutUs = () => {
             </button>
           </a>
         </div>
+        <img
+          className="siteBlackImg"
+          src={siteBlackImg}
+          alt=""
+          data-aos="fade-right"
+        />
       </div>
-      <img
-        className="siteBlackImg"
-        src={siteBlackImg}
-        alt=""
-        data-aos="fade-right"
-      />
     </>
   );
 };
