@@ -32,6 +32,8 @@
   color: rgb(61, 129, 112);
 }
 
+/* images */
+
 .orientFinansBank {
   width: 461px;
   height: 64px;
@@ -45,11 +47,11 @@
   height: 64px;
 }
 .MacBro {
-  width: 215px;
+  width: 210px;
   height: 64px;
 }
 .Thread {
-  width: 194px;
+  width: 205px;
   height: 64px;
 }
 .AnorBank {
@@ -57,7 +59,7 @@
   height: 64px;
 }
 .MaxWay {
-  max-width: 196px;
+  max-width: 170px;
   height: 64px;
 }
 

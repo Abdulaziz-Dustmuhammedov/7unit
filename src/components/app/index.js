@@ -34,9 +34,9 @@ const App = () => {
       <div className="header">
         <Header />
       </div>
-      <AboutUs />
+      {/* <AboutUs />
       <Priority />
-      <Brands />
+      <Brands /> */}
       <OurWork />
       <OurService />
       <Discussion isSubmitted={isSubmitted} onSubmit={onSubmit} />

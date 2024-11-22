@@ -7,7 +7,6 @@
   font-family: "Inter", sans-serif;
   font-size: 60px;
   font-weight: 600;
-  /* margin-bottom: 32px; */
 }
 
 .about-btn {
@@ -20,6 +19,9 @@
   border: none;
   border-radius: 5px;
   margin-bottom: 64px;
+
+  display: flex;
+  align-items: center;
 }
 .chevron-img {
   margin-left: 10px;
@@ -84,19 +86,7 @@
   }
 }
 @media (max-width: 480px) {
-  /* .about-title {
-    font-size: 20px;
-  } */
-  .site-header {
-    margin-bottom: 7px;
-  }
-}
-@media (max-width: 370px) {
-  /* .about-title {
-    font-size: 17px;
-  } */
   .site-header {
     margin-bottom: 5px;
   }
 }
-/*  */

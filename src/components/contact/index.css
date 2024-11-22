@@ -1,6 +1,6 @@
-.contact-section {
+/* .contact-section {
   margin: 96px 0;
-}
+} */
 .contact-list {
   list-style-type: none;
   display: flex;
@@ -43,9 +43,9 @@
   }
 }
 @media (max-width: 1024px) {
-  .contact-section {
+  /* .contact-section {
     margin: 128px 0 112px 0;
-  }
+  } */
   .contact-list {
     flex-wrap: wrap;
   }
@@ -55,9 +55,9 @@
 }
 
 @media (max-width: 450px) {
-  .contact-section {
+  /* .contact-section {
     margin: 96px 0;
-  }
+  } */
   .contact-item {
     max-width: 343px;
     height: 264px;

@@ -6,7 +6,7 @@ import TelephneImg from "../../assets/icons/telephone-icon.svg";
 
 const Contact = () => {
   return (
-    <div className="contact-section" id="contact">
+    <div className="contact-section mb-24 md:mb-28 lg:mb-36" id="contact">
       <div className="contact-wrap">
         <ul className="contact-list">
           <li className="contact-item">
@@ -33,7 +33,7 @@ const Contact = () => {
               height={48}
             />
             <strong className="contact-strong">Приходите к нам</strong>
-            <p>Посетите наш главный офис.</p>
+            <p>Посетите наш офис.</p>
             <p className="contact-link">
               г. Ташкент, Шайхантахурский район, <br />
               улица Куш Кунди, 8а
@@ -49,7 +49,7 @@ const Contact = () => {
               height={48}
             />
             <strong className="contact-strong">Позвоните нам</strong>
-            <p>Mon-Fri from 8am to 5pm.</p>
+            <p>"с понедельника по пятницу с 08:00 до 17:00"</p>
             <a className="contact-link" href="tel:+1 (555) 000-0000">
               +1 (555) 000-0000
             </a>

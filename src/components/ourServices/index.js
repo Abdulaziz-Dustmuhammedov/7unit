@@ -1,39 +1,50 @@
 import "./index.css";
 import phoneImg from "../../assets/images/phone.png";
 import redImg from "../../assets/images/red-img.png";
-import redBackground from "../../assets/images/red-backgroung.png";
+import PhoneImgTablet from "../../assets/images/phone-Img-Tablet.png";
 
 const OurService = () => {
   return (
-    <div className="our-service" id="our-service">
+    <div
+      className="our-service mt-12 md:mt-16 lg:mt-24    mb-24 md:mb-32"
+      id="our-service"
+    >
       <div className="our-service-folder container">
         <div className="our-service-content">
           <span
-            className="our-service-text"
+            className="our-service-text mb-3"
             data-aos="fade-left"
             data-aos-duration="1000"
           >
             Наши работы
           </span>
           <p
-            className="our-service-title"
+            className="our-service-title mb-8 md:mb-16"
             data-aos="fade-right"
             data-aos-duration="1000"
           >
             Качество в каждой детали
           </p>
         </div>
-        <div className="letto-wrap">
+        <div className="letto-wrap mb-8 md:mb-16 lg:mb-24">
           <img
+            className="phone-img"
             src={phoneImg}
             alt=""
             data-aos="fade-right"
             data-aos-duration="1000"
             width={600}
           />
+          <img
+            className="phone-img-tablet"
+            src={PhoneImgTablet}
+            alt="PhoneImgTablet"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          />
           <div>
             <p
-              className="letto-title"
+              className="letto-title mb-2"
               data-aos="fade-left"
               data-aos-duration="1000"
             >

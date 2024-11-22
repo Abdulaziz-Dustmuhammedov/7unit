@@ -10,7 +10,7 @@ const AboutUs = () => {
       <div className="about-section container">
         <div className="about-wrap">
           <p
-            className="about-title"
+            className="about-title mb-3"
             // data-aos=
             data-aos="fade-up "
             data-aos-duration="1000"
@@ -27,7 +27,7 @@ const AboutUs = () => {
               data-aos="zoom-in"
               data-aos-duration="1000"
             >
-              Связаться c нами{" "}
+              Связаться c нами
               <img className="chevron-img" src={chevronRight} alt="" />
             </button>
           </a>

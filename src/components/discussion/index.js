@@ -5,9 +5,10 @@ import DoneForm from "../done-from";
 
 const Discussion = ({ onSubmit, isSubmitted }) => {
   return (
-    <div className="discussion-section" id="form">
-      <div className="discussion-folder">
+    <div className="discussion-section mb-24 md:mb-32 " id="form">
+      <div className="discussion-folder ">
         <img
+          className="empty-img"
           src={empty}
           alt=""
           data-aos="fade-right"
@@ -27,14 +28,14 @@ export default Discussion;
 
 const MaskedInputForm = ({ onSubmit }) => {
   return (
-    <div>
+    <div className="discussion-main-wrap">
       <div
         className="discussion-wrap"
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        <p className="discussion-title">Обсудим ваш проект?</p>
-        <p className="discussion-text">
+        <p className="discussion-title md:mb-4">Обсудим ваш проект?</p>
+        <p className="discussion-text md:mb-12">
           Заполните краткую информацию и мы <br />
           свяжемся с Вами в течении 1 рабочего дня
         </p>
@@ -45,7 +46,7 @@ const MaskedInputForm = ({ onSubmit }) => {
             <input
               className="discussion-input"
               type="text"
-              placeholder="Имя пользователя"
+              placeholder="AbdulAziz"
               required
               // onChange={(e)=>{}}
             />
@@ -55,7 +56,7 @@ const MaskedInputForm = ({ onSubmit }) => {
             <input
               className="discussion-input"
               type="text"
-              placeholder="Название компании"
+              placeholder="7Unit"
               required
             />
           </label>

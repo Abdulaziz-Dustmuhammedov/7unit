@@ -1,6 +1,7 @@
 .discussion-section {
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
   overflow: hidden;
+  /* margin-bottom: 128px; */
 }
 .discussion-folder {
   display: flex;
@@ -75,6 +76,18 @@
   .discussion-folder > img {
     max-width: 55%;
     height: auto;
+  }
+}
+
+@media (max-width: 1025px) {
+  .empty-img {
+    display: none;
+  }
+  .discussion-main-wrap {
+    max-width: 500px;
+    width: 100%;
+
+    margin: auto;
   }
 }
 

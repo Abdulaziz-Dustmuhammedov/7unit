@@ -1,16 +1,17 @@
+//
 import Accordion from "../accordion";
 import "./index.css";
 
 const OurWork = () => {
   return (
     <div className="our-work" id="our-work">
-      <div className="our-work-folder">
+      <div className="our-work-folder py-12 md:py-16 lg:py-24">
         <div
           className="our-work-wrap"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          <p className="our-work-text">Как мы работаем?</p>
+          <p className="our-work-text pb-3">Как мы работаем?</p>
 
           <Accordion
             title={`
@@ -23,6 +24,7 @@ const OurWork = () => {
             успешную реализацию."
           />
         </div>
+
         <div
           className="our-work-wrap"
           data-aos="fade-left"
@@ -36,6 +38,7 @@ const OurWork = () => {
              максимальную функциональность и визуальную эстетику."
           />
         </div>
+
         <div
           className="our-work-wrap"
           data-aos="fade-right"
@@ -49,6 +52,7 @@ const OurWork = () => {
           функции."
           />
         </div>
+
         <div
           className="our-work-wrap"
           data-aos="fade-left"
@@ -61,6 +65,7 @@ const OurWork = () => {
           гарантируем стабильность и безопасность вашего веб-решения."
           />
         </div>
+
         <div
           className="our-work-wrap"
           data-aos="fade-right"
