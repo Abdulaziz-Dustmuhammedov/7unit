@@ -22,6 +22,7 @@
 .navbar {
   display: flex;
   align-items: center;
+  margin-left: 40px;
 }
 .pages {
   display: flex;

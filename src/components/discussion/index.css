@@ -1,7 +1,5 @@
 .discussion-section {
-  /* margin-bottom: 48px; */
   overflow: hidden;
-  /* margin-bottom: 128px; */
 }
 .discussion-folder {
   display: flex;
@@ -15,9 +13,7 @@
   height: 885px;
   width: 100%;
 }
-.discussion-wrap {
-  margin-top: 55px;
-}
+
 .discussion-title {
   font-size: 36px;
   font-weight: 600;
