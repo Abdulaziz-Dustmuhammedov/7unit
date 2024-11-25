@@ -59,16 +59,6 @@
   background-color: transparent;
   display: none;
 }
-.hamburger-menu {
-  /* border: none; */
-}
-.close-img {
-  /* display: none; */
-}
-
-/*  */
-/*  */
-/*  */
 
 /* responsiv */
 @media (max-width: 770px) {
