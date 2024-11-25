@@ -1,6 +1,4 @@
-/* .contact-section {
-  margin: 96px 0;
-} */
+/*  */
 .contact-list {
   list-style-type: none;
   display: flex;
@@ -27,7 +25,6 @@
 .contact-strong {
   padding-bottom: 6px;
   font-weight: 600;
-  font-size: 20px;
 }
 
 .contact-link {
@@ -55,16 +52,11 @@
 }
 
 @media (max-width: 450px) {
-  /* .contact-section {
-    margin: 96px 0;
-  } */
   .contact-item {
     max-width: 343px;
     height: 264px;
   }
-  .contact-item:last-child {
-    height: 240px;
-  }
+
   .contact-img {
     margin-bottom: 48px;
   }

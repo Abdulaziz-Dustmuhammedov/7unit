@@ -35,7 +35,7 @@ const MaskedInputForm = ({ onSubmit }) => {
         data-aos-duration="1000"
       >
         <p className="discussion-title md:mb-4">Обсудим ваш проект?</p>
-        <p className="discussion-text md:mb-12">
+        <p className="discussion-text mb-6 md:mb-12">
           Заполните краткую информацию и мы <br />
           свяжемся с Вами в течении 1 рабочего дня
         </p>
@@ -61,6 +61,7 @@ const MaskedInputForm = ({ onSubmit }) => {
             />
           </label>
           <label className="discussion-label" htmlFor="">
+            <span>Номер телефона</span>
             <InputMask
               className="discussion-input"
               mask="+\9\98 (99) 999-99-99"
