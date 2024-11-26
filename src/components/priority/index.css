@@ -137,3 +137,14 @@
     padding: 0;
   }
 }
+
+@media (max-width: 400px) {
+  .priority-item {
+    height: 350px;
+  }
+}
+@media (max-width: 400px) {
+  .priority-item {
+    height: 380px;
+  }
+}
