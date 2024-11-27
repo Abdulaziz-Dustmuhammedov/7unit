@@ -45,7 +45,7 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="/" className="pages-link">
+                    <a href="#contact" className="pages-link">
                       Контакты
                     </a>
                   </li>

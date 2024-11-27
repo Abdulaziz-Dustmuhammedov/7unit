@@ -9,7 +9,7 @@
 }
 .contact-item {
   background-color: #f2f4f7;
-  max-width: 375px;
+  /* max-width: 375px; */
   width: 100%;
   height: 290px;
   border-radius: 5px;
