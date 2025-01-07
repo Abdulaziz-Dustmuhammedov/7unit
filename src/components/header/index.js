@@ -1,6 +1,5 @@
 // import assets from
 
-//
 import "./index.css";
 import logoIcon from "../../assets/icons/logo.svg";
 import hamburgerMenu from "../../assets/images/hamburger-menu.png";
@@ -14,7 +13,6 @@ const Header = () => {
   const onOpen = () => {
     setIsOpen(true);
   };
-
   const onClose = () => {
     setIsOpen(false);
   };
